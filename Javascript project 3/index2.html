@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript for loops</h1>
+    <p id="a"></p>
+    <script>
+        for(var x=1;x<=10;x++){
+            document.write(x)
+        }
+        document.write("<br>")
+        for(var x=0;x<=10;x+=2){
+            document.write(x)
+        }
+        document.write("<br>")
+        var fruits=["Watermelon","Apple","Durian","Plum"]
+        var text=""
+        var a
+        for(a=0;a<fruits.length;a++){
+            text+=fruits[a]+"<br>"
+        }
+        document.getElementById("a").innerHTML=text
+    </script>
+</body>
+</html>
